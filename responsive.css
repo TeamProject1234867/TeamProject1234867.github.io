@@ -1,0 +1,269 @@
+/*untuk ukuran tablet*/
+@media all and (max-width: 1000 px) {
+    body {
+        background-color: white;
+        font-family: Segoe UI;
+        margin: 10px;
+    }
+    
+    .container-judul {
+        width: 100%;
+        margin: 10px;
+    }
+    
+    .j1 {
+        text-align: left;
+        font-family: Segoe UI;
+        top: 100px;
+        margin-left: 20px ;
+        margin-right: 20px;
+        padding-bottom: 20px;
+        font-size: 10px;
+    }
+    
+    .j2 {
+        text-align: left;
+        font-family: Segoe UI;
+        
+        top: 130px;
+        margin-left: 10px ;
+        margin-right: 10px;
+    }
+    
+    .j3 {
+        text-align: center;
+        font-family: Segoe UI;
+        
+        top: 190px;
+        margin-left: 10px ;
+        margin-right: 10px;
+    }
+    
+    .container-judul p{
+        font-size: 12px;
+        padding-bottom: 5px;
+        padding-top: 0px;
+        padding-left: 5px;
+        text-align: center;
+        margin-left: 10px ;
+        margin-right: 10px;
+    }
+    
+    .container-judul img {
+        float: right;
+        display: block;
+        margin-left: auto;
+        margin-right: 20px;
+        width: 50px;
+        height: 30px;
+        
+    }
+    
+    .container-judul {
+        margin: 10px 50px 10px 50px;
+    }
+    
+    .fb {
+        text-decoration: none;
+        color: white;
+        background-color: #3b5998;
+    }
+    
+    .twitter {
+        text-decoration: none;
+        background-color: #55acee;
+        color: white;
+    }
+    
+    .btn {
+        padding: 8px 8px;
+        color: white;
+        display: inline-block;
+        opacity: 0.8;
+        border-radius: 4px;
+        box-shadow: 0px 2px #000000;
+      }
+    
+      .btn:active {
+          top: 2px;
+          position: relative;
+          box-shadow: none;
+      }
+    
+      .btn:hover {
+        opacity: 1;
+      }
+    
+    .share-sosmed {
+        padding-top: 230px;
+        
+        margin-left: 20px;
+    }
+    
+    .share-sosmed p{
+        float: left;
+    }
+    
+    .isi-konten img {
+        width: 50px;
+        height: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .isi-konten p{
+        text-align: justify;
+    }
+    
+    .isi-konten h2{
+        font-style: italic;
+    }
+    
+    .isi-konten b{
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .container-konten {
+        margin: 10px;
+    }
+    
+    .isi-konten span {
+        font-style: italic;
+    }
+
+}
+
+/* untuk ukuran smartphone */
+@media all and (max-width: 670px) {
+    body {
+        background-color: white;
+        font-family: Segoe UI;
+    }
+    
+    .container-judul {
+        width: 50%;
+        margin: 50px;
+    }
+    
+    .j1 {
+        text-align: left;
+        font-family: Segoe UI;
+        top: 100px;
+        margin-left: auto ;
+        font-size: 30px;
+        margin-right: 20px;
+    }
+    
+    .j2 {
+        text-align: left;
+        font-size: 30px;
+        font-family: Segoe UI;  
+        top: 130px;
+        margin-left: 0px ;
+        margin-right: 20px;
+    }
+    
+    .j3 {
+        text-align: center;
+        font-family: Segoe UI;
+        top: 190px;
+        margin-left: auto ;
+        margin-right: 20px;
+    }
+    
+    .container-judul p{
+        font-size: 12px;
+        padding-bottom: 5px;
+        padding-top: 0px;
+        padding-left: 5px;
+        text-align: center;
+        margin-left: 20px ;
+        margin-right: 20px;
+    }
+    
+    .container-judul img {
+        display: block;
+        padding: 50px;
+        margin-right: auto;        
+        width: 400px;
+        height: 280px;
+    }
+    
+    .container-judul {
+        margin: 10px 50px 10px 50px;
+    }
+    
+    .fb {
+        text-decoration: none;
+        color: white;
+        background-color: #3b5998;
+    }
+    
+    .twitter {
+        text-decoration: none;
+        background-color: #55acee;
+        color: white;
+    }
+    
+    .btn {
+        padding: 8px 8px;
+        color: white;
+        display: inline-block;
+        opacity: 0.8;
+        border-radius: 4px;
+        box-shadow: 0px 2px #000000;
+      }
+    
+      .btn:active {
+          top: 2px;
+          position: relative;
+          box-shadow: none;
+      }
+    
+      .btn:hover {
+        opacity: 1;
+      }
+    
+    .share-sosmed {
+        padding-top: 330px;
+        margin-left: auto;
+    }
+    
+    .share-sosmed p{
+        float: left;
+        margin-bottom: 50px;
+        top: 300px;
+    }
+    
+    .isi-konten img {
+        width: 400px;
+        height: 350px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+    }
+    
+    .isi-konten p{
+        text-align: justify;
+    }
+    
+    .isi-konten h2{
+        font-style: italic;
+    }
+    
+    .container-konten h5{
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .container-konten {
+        margin: 300px 50px;
+    }
+    
+    .isi-konten span {
+        font-style: italic;
+    }
+}

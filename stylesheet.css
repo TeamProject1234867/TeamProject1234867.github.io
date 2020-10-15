@@ -1,0 +1,181 @@
+body {
+    background-color: white;
+    font-family: Segoe UI;
+}
+
+.container-judul {
+    width: 100%;
+}
+
+.j1 {
+    text-align: center;
+    font-family: Segoe UI;
+    position: absolute;
+    top: 200px;
+    margin-left: 200px ;
+    margin-right: 200px;
+}
+
+.j2 {
+    text-align: center;
+    font-family: Segoe UI;
+    position: absolute;
+    top: 230px;
+    margin-left: 200px ;
+    margin-right: 200px;
+}
+
+.j3 {
+    text-align: center;
+    font-family: Segoe UI;
+    position: absolute;
+    top: 290px;
+    margin-left: 200px ;
+    margin-right: 200px;
+}
+
+.container-judul p{
+    font-size: 12px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-left: 5px;
+    text-align: center;
+    margin-left: 200px ;
+    margin-right: 200px;
+}
+
+.container-judul img {
+    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: 200px;
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+
+.container-judul {
+    margin: 10px 50px 10px 50px;
+}
+
+.fb {
+    text-decoration: none;
+    color: white;
+    background-color: #3b5998;
+}
+
+.twitter {
+    text-decoration: none;
+    background-color: #55acee;
+    color: white;
+}
+
+.btn {
+    padding: 8px 8px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    box-shadow: 0px 2px #000000;
+  }
+
+  .btn:active {
+      top: 2px;
+      position: relative;
+      box-shadow: none;
+  }
+
+  .btn:hover {
+    opacity: 1;
+  }
+
+.share-sosmed {
+    padding-top: 230px;
+    position: absolute;
+    margin-left: 200px;
+}
+
+.share-sosmed p{
+    float: left;
+}
+
+.isi-konten img {
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.isi-konten p{
+    text-align: justify;
+}
+
+.isi-konten h2{
+    font-style: italic;
+}
+
+.isi-konten h3{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.container-konten {
+    margin: 100px 350px;
+}
+
+.isi-konten span {
+    font-style: italic;
+}
+
+/* Header */
+
+body {
+    margin: 0;
+  }
+  li {
+    list-style: none;
+  }
+  .container-header {
+    widht: 1170px;
+  }
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: blue;
+  }
+  .header-wrapper {
+    display: inline;
+  }
+  .logo {
+    float: left;
+    margin: 18px 10px 20px 100px;
+    width: 40px;
+  }
+  .header-logo {
+    color: white;
+    font-size: 25px;
+    float: left;
+    padding: 20px 100px 0px 20px;
+  }
+  
+  .header-list ul {
+    font-family: "Open sans";
+    margin-right: 100px;
+  }
+  .header-list a {
+    float: right;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 25px 10px;
+  }
+  .header-list li {
+    display: inline;
+  }
+  .header-list a:hover {
+    background-color: rgba(177, 218, 231, 0.5);
+  }
+  
